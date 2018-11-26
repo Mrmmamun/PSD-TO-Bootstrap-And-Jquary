@@ -1,0 +1,261 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575.98px) {
+    
+     .banner_area{
+        height: 125vh;
+    }
+    .banner_content {
+        padding: 129px 0px 0px
+   }
+    .banner_content h4{
+        font-size: 22px;
+    }
+    .banner_content p{
+            font-size: 12px;
+    }
+    .banner_right img {
+    padding: 0px 0px 0px;
+   }
+    .contactus_btn{
+        margin-bottom: 6px;
+    }
+    .lead_area {
+    height: 100vh;
+   }
+    .client_header h4 {
+   
+    font-size: 14px;
+   }
+    .count-text {
+    font-size: 10px;
+   }
+    .contact_form input {
+        width: 100%;
+    }
+    .contact_form textarea{
+         width: 100%;
+    }
+    .lead_content h4 {
+        font-size: 22px;
+    }
+    .lead_content p{
+        font-size: 15px;
+    }
+    .work_header h4 {
+        font-size: 22px;
+    }
+    .work_header p{
+        font-size: 15px;
+    }
+    .work_area {
+        height: 66vh;
+    }
+    .submit input{
+        width: 100%;
+       margin: 10px 0px 0px;
+    }
+    .submit_btn {
+            bottom: -26px;
+           left: 121px;
+    }
+    .work_header p::before {
+        background: none;
+    }
+    .footer_left p {
+   
+    font-size: 9px;
+     }
+    .text-right {
+    text-align: center!important;
+        font-size: 30px;
+   }
+    .protfolio_list li{
+        font-size: 14px;
+        padding: 0px;
+    }
+    .portfolio_header p{
+        font-size: 13px;
+    }
+    .count-title{
+        font-size: 23px;
+    }
+    .counter1 i {
+            margin-top: -17px;
+           font-size: 11px;
+            margin-right: 0px;
+    }
+    .counter2 i {
+            margin-top: -17px;
+           font-size: 11px;
+            margin-right: 0px;
+    }
+    .counter3 i {
+            margin-top: -17px;
+           font-size: 11px;
+            margin-right: 0px;
+    }
+    .counter4 i {
+            margin-top: -17px;
+           font-size: 11px;
+            margin-right: 0px;
+    }
+    
+     .profile_photos {
+
+                margin-bottom: 20px;
+               }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .banner_content {
+       padding: 92px 0px 0px;
+}
+    .banner_content p{
+        font-size: 13px;
+    }
+    .banner_content h4 {
+        font-size: 26px; 
+    }
+    .banner_area{
+        height: 125vh;
+    }
+    .banner_right img {
+    padding: 0px 0px 0px;
+    }
+    .client_header h4{
+        font-size: 20px;
+    }
+    .count-text {
+        font-size: 12px;
+    }
+    .counter1 i {
+        margin-right: 0px;
+    }
+    .counter2 i {
+
+        margin-right: 28px;
+
+    }
+    .counter3 i {
+
+        margin-right: 36px;
+
+    }
+    .counter4 i {
+
+        margin-right: 8px;
+
+    }
+    .submit_btn {
+        left: 372px;
+    }
+    .work_header p::before {
+        top: 106px;
+    }
+    .footer_left p {
+        font-size: 14px;
+    }
+    .text-right {
+    text-align: center!important;
+        font-size: 30px;
+    }
+    .profile_photos {
+   
+    margin-bottom: 20px;
+   }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .counter1 i {
+        margin-right: 19px;
+    }
+
+    .counter2 i {
+
+        margin-right: 48px;
+
+    }
+    .counter3 i {
+
+        margin-right: 58px;
+
+    }
+    .counter4 i {
+
+        margin-right: 29px;
+
+    }
+     .submit_btn {
+        right: 132px;
+    }
+    .contact_form input {
+        width: 100%;
+    }
+    .contact_form textarea{
+         width: 100%;
+    }
+    .footer_left p {
+    
+    font-size: 11px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .counter1 i {
+        margin-right: 48px;
+    }
+
+    .counter2 i {
+
+        margin-right: 77px;
+
+    }
+
+    .counter3 i {
+
+        margin-right: 87px;
+
+    }
+
+    .counter4 i {
+
+        margin-right: 57px;
+
+    }
+
+    .submit_btn {
+        right: 256px;
+    }
+
+    .nav-item {
+        padding: 0px 3px 0px;
+    }
+
+
+
+
+
+}
+
+@media (min-width: 1200px) and (max-width: 1280px) {}
+
+@media (min-width: 1281px) and (max-width: 1366px) {}
+
+@media (min-width: 1367px) and (max-width: 1440px) {}
+
+@media (min-width: 1441px) and (max-width: 1600px) {}
+
+@media (min-width: 1601px) and (max-width: 1680px) {}
+
+@media (min-width: 1681px) and (max-width: 1920px) {}
+
+
+/*Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {}
