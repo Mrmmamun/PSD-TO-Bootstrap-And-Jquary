@@ -177,6 +177,9 @@
 /*Medium devices (tablets, 768px and up)*/
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-nav{
+            background: #5D4CFD;
+    }
     .counter1 i {
         margin-right: 19px;
     }
